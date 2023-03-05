@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>PRODUCTS</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Does page loads after login</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given As a registered user</content><expected></expected></step>
+<step>
+<index>2</index><content>When user login from login page https://www.saucedemo.com/</content><expected></expected></step>
+<step>
+<index>3</index><content>Then: PRODUCTS page appear https://www.saucedemo.com/inventory.html</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Does the logo exist</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given Аs a registered user</content><expected></expected></step>
+<step>
+<index>2</index><content>When user goes on the page https://www.saucedemo.com/inventory.html</content><expected></expected></step>
+<step>
+<index>3</index><content>Then logo exist on the top of the page  ![](index.php?/attachments/get/dc656e2b-0ed8-4f71-b891-7afda356c245) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Does the menu exist</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given Аs a registered user</content><expected></expected></step>
+<step>
+<index>2</index><content>When user goes on PRODUCTS page</content><expected></expected></step>
+<step>
+<index>3</index><content>Then MENU button exist on the top left of the page  ![](index.php?/attachments/get/6d032aa9-4a4e-4189-8632-f7433cd0663c) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Does the shopping cart exist</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given Аs a registered user</content><expected></expected></step>
+<step>
+<index>2</index><content>When user goes on PRODUCTS page</content><expected></expected></step>
+<step>
+<index>3</index><content>Then shopping cart button exist on the top right of the page  ![](index.php?/attachments/get/f8a5d7df-e7b9-4bcb-bd29-6fffe42a1ceb) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Does the astronaut appear</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given Аs a registered user</content><expected></expected></step>
+<step>
+<index>2</index><content>When user goes on PRODUCTS page</content><expected></expected></step>
+<step>
+<index>3</index><content>Then astronaut  ![](index.php?/attachments/get/73192da1-25bb-4717-ac08-86e3c6e53495)  appear</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Does filter menu exist</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given Аs a registered user</content><expected></expected></step>
+<step>
+<index>2</index><content>When user goes on PRODUCTS page</content><expected></expected></step>
+<step>
+<index>3</index><content>Then filter menu  ![](index.php?/attachments/get/9ec797cd-8cdc-4779-9e1a-7d59b79d54d7)  exist </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Does list of products appear</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given Аs a registered user</content><expected></expected></step>
+<step>
+<index>2</index><content>When user goes on PRODUCTS page</content><expected></expected></step>
+<step>
+<index>3</index><content>Then list of products appear  ![](index.php?/attachments/get/121fe581-a857-4642-b63f-98a22d4da6ae) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Does the button &quot;ADD TO CART&quot; exist</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given Аs a registered user</content><expected></expected></step>
+<step>
+<index>2</index><content>When user goes on PRODUCTS page</content><expected></expected></step>
+<step>
+<index>3</index><content> button &quot;ADD TO CART&quot; exist next to every product  ![](index.php?/attachments/get/ba5b711a-d0da-4b0b-afc7-60ffffa99477) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>MENU</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C9</id>
+				<title>Does it shows all options</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>ALL ITEMS
+ABOUT
+LOGOUT
+RESET APP STATE
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Given User is on PRODUCTS page</content><expected></expected></step>
+<step>
+<index>2</index><content>When User click on MENU button  ![](index.php?/attachments/get/d560bb8b-b889-4633-b31e-a9a2448b2925)  </content><expected></expected></step>
+<step>
+<index>3</index><content>Then All option button in &apos;Preconditions&apos; is appear  ![](index.php?/attachments/get/d60dd54c-7479-461d-a29e-30b75ccb8b92) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Check button &quot;ALL ITEMS&quot; show all products</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is click on &quot;MENU&quot; button</content><expected></expected></step>
+<step>
+<index>2</index><content>When MENU open user click on &quot;ALL ITEMS&quot; button</content><expected></expected></step>
+<step>
+<index>3</index><content>Then All product appear on the page</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Check button &quot;ABOUT&quot;  navigate me to the company site</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is click on &quot;MENU&quot; button
+
+
+</content><expected></expected></step>
+<step>
+<index>2</index><content>When MENU open user click on &quot;ABOUT&quot; button
+
+</content><expected></expected></step>
+<step>
+<index>3</index><content>Then User is redirect to company site https://saucelabs.com/</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>Check button &quot;LOGOUT&quot;  return me to login page for login again</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is click on &quot;MENU&quot; button
+
+</content><expected></expected></step>
+<step>
+<index>2</index><content>When MENU open user click on &quot;LOGOUT&quot; button
+
+</content><expected></expected></step>
+<step>
+<index>3</index><content>Then User is logout and is redirect to login page https://www.saucedemo.com/</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Check button &quot;RESET APP STATE&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>SHOPPING CART</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C14</id>
+				<title>Check button &quot;SHOPPING CART&quot; redirect to YOUR CARD page</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is on PRODUCTS page</content><expected></expected></step>
+<step>
+<index>2</index><content>When User click on &quot;SHOPPING CART&quot; button</content><expected></expected></step>
+<step>
+<index>3</index><content>Then User is redirect to YOUR CART page https://www.saucedemo.com/cart.html</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Check button &quot;CONTINUE SHOPPING&quot; redirect to product page</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is on YOUR CART page</content><expected></expected></step>
+<step>
+<index>2</index><content>When User click on &quot;CONTINUE SHOPPING&quot; button  ![](index.php?/attachments/get/97892179-4a6d-4497-b862-da5a0da1edf8) </content><expected></expected></step>
+<step>
+<index>3</index><content>Then User is redirect to PRODUCTS page</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C16</id>
+				<title>Check button &quot;CHECKOUT&quot; redirect to CHECKOUT: YOUR INFORMATION</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is on YOUR CART page
+
+</content><expected></expected></step>
+<step>
+<index>2</index><content>
+When User click on &quot;CHECKOUT&quot; button  ![](index.php?/attachments/get/e256f86a-bea6-45b7-8ed9-94462592f7d0) 
+
+</content><expected></expected></step>
+<step>
+<index>3</index><content>Then User is redirect to CHECKOUT: YOUR INFORMATION page https://www.saucedemo.com/checkout-step-one.html</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>CHECKOUT: YOUR INFORMATION</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C17</id>
+				<title>Does input fields appear</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>First Name
+Last Name
+Zip/Postal Code</preconds>
+										<steps_separated><step>
+<index>1</index><content>When User is on CHECKOUT: YOUR INFORMATION page</content><expected></expected></step>
+<step>
+<index>2</index><content>Then input fields from &apos;Preconditions&apos; appear  ![](index.php?/attachments/get/63774a93-d09a-45f6-97cb-1ab67615d255) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C20</id>
+				<title>Does button &quot;CANCEL&quot; exist</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>When user goes on CHECKOUT: YOUR INFORMATION page</content><expected></expected></step>
+<step>
+<index>2</index><content>Then Button &quot;CANCEL&quot; exist on bottom left of the page  ![](index.php?/attachments/get/21c8a851-e6b7-4ed1-bc2c-101b16ac4147) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C21</id>
+				<title>Does button &quot; CONTINUE&quot; exist</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>When user goes on CHECKOUT: YOUR INFORMATION page
+
+</content><expected></expected></step>
+<step>
+<index>2</index><content>Then Button &quot;CONTINUE exist on bottom right of the page  ![](index.php?/attachments/get/c2374c33-9a9f-4575-b60f-abf55c2de8ec) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C22</id>
+				<title>Check button &quot;CANCEL&quot; return to YOUR CART page</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is on CHECKOUT: YOUR INFORMATION page</content><expected></expected></step>
+<step>
+<index>2</index><content>When user click on &quot;CANCEL&quot; button</content><expected></expected></step>
+<step>
+<index>3</index><content>Then User is return to YOUR CART page</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C23</id>
+				<title>Check button &quot;CONTINUE&quot; whit empty fields</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is on CHECKOUT: YOUR INFORMATION page
+
+</content><expected></expected></step>
+<step>
+<index>2</index><content>When user click on &quot;CONTINUE&quot; button whit empty fields</content><expected></expected></step>
+<step>
+<index>3</index><content>Then Error appear  ![](index.php?/attachments/get/3c1fb2a6-0619-42db-9610-6e3e759b5be7) </content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C24</id>
+				<title>Check button &quot;CONTINUE&quot; whit filled fields</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps_separated><step>
+<index>1</index><content>Given User is on CHECKOUT: YOUR INFORMATION page
+
+</content><expected></expected></step>
+<step>
+<index>2</index><content>When User click on &quot;CONTINUE&quot; button whit filled fields</content><expected></expected></step>
+<step>
+<index>3</index><content>Then User is redirect to CHECKOUT: OVERVIEW page https://www.saucedemo.com/checkout-step-two.html</content><expected></expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
